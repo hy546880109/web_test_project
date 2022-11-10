@@ -14,7 +14,7 @@ class Conf(enum.Enum):
 
     port = 3306
     user = 'root'
-    password = 'Antian!2020'
+
     host = '139.159.202.43'
 
 if __name__ == '__main__':
