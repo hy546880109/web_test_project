@@ -1,0 +1,8 @@
+login:
+    url: "http://127.0.0.1:8000/"
+    denglu: "请登录"
+    name: "cs"
+    password: "123456"
+    denglu_btm: "button"
+    login_err: "#app > div > div.tank > div > div.right > ul > div > span"
+    login_suc: "/html/body/nav/div/div[2]/ul/div/ul/li[3]/a/span"

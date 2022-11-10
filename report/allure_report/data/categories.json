@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False",
+      "children" : [ {
+        "name" : "测试百度搜索失败",
+        "uid" : "fdc45bd7b1df1512",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610786613155,
+          "stop" : 1610786614663,
+          "duration" : 1508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'狂师'", "'狂师'" ]
+      } ],
+      "uid" : "8d89788b03808d3beec6ddf8e7d75f3d"
+    }, {
+      "name" : "AssertionError: assert 1 == 0\n  +1\n  -0",
+      "children" : [ {
+        "name" : "模拟失败的测试用例",
+        "uid" : "3c56f070eeb431e2",
+        "parentUid" : "c0a776b5fa3eec3868aa5e8e96941f56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610786619939,
+          "stop" : 1610786619940,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c0a776b5fa3eec3868aa5e8e96941f56"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Exception: error",
+      "children" : [ {
+        "name" : "模拟异常测试用例",
+        "uid" : "92b2988aa7c295c",
+        "parentUid" : "fdd5b8c821b984eb309be892f3d06c99",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610786619950,
+          "stop" : 1610786619950,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fdd5b8c821b984eb309be892f3d06c99"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

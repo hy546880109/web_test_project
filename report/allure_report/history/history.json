@@ -1,0 +1,179 @@
+{
+  "a1b3646d3494ca5d80af72bfd7b9f40b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d5bd6b551da9535",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610786603892,
+        "stop" : 1610786604880,
+        "duration" : 988
+      }
+    } ]
+  },
+  "b0eee59860451b1a61d4fe18443f7b92" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d4beb098c1b08345",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610786619937,
+        "stop" : 1610786619937,
+        "duration" : 0
+      }
+    } ]
+  },
+  "428eda100646e1807832a5c472f812d5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fdc45bd7b1df1512",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1610786613155,
+        "stop" : 1610786614663,
+        "duration" : 1508
+      }
+    } ]
+  },
+  "4d6f69528105025e73155f81a2c2931c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7098bb1b4313795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668050745404,
+        "stop" : 1668050749041,
+        "duration" : 3637
+      }
+    } ]
+  },
+  "7c56afde4c5b0b5ea8a9715083bc9f8f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92b2988aa7c295c",
+      "status" : "broken",
+      "statusDetails" : "Exception: error",
+      "time" : {
+        "start" : 1610786619950,
+        "stop" : 1610786619950,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ab33f7d0fa13497164a204ccf458b3f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93a6ec55d7fb7eb1",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL this test is expecting failure\n\nAssertionError: assert False",
+      "time" : {
+        "start" : 1610786619956,
+        "stop" : 1610786619956,
+        "duration" : 0
+      }
+    } ]
+  },
+  "23c894080cc05e81a4a2d01eab0f99b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa0c720aaa80356a",
+      "status" : "passed",
+      "statusDetails" : "XPASS this test is expecting failure",
+      "time" : {
+        "start" : 1610786619963,
+        "stop" : 1610786619963,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7a7c521c41595f0b83638a222bc9c511" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d64ced6537d821d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 调试用例，skip",
+      "time" : {
+        "start" : 1610786619948,
+        "stop" : 1610786619948,
+        "duration" : 0
+      }
+    } ]
+  },
+  "214b4d98ab441f0e890f10e9adc6f07b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c56f070eeb431e2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  +1\n  -0",
+      "time" : {
+        "start" : 1610786619939,
+        "stop" : 1610786619940,
+        "duration" : 1
+      }
+    } ]
+  }
+}

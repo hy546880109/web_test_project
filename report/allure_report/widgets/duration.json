@@ -1,0 +1,91 @@
+[ {
+  "uid" : "fdc45bd7b1df1512",
+  "name" : "测试百度搜索失败",
+  "time" : {
+    "start" : 1610786613155,
+    "stop" : 1610786614663,
+    "duration" : 1508
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5d5bd6b551da9535",
+  "name" : "测试百度搜索正确",
+  "time" : {
+    "start" : 1610786603892,
+    "stop" : 1610786604880,
+    "duration" : 988
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "93a6ec55d7fb7eb1",
+  "name" : "标识失败，结果为失败",
+  "time" : {
+    "start" : 1610786619956,
+    "stop" : 1610786619956,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "blocker"
+}, {
+  "uid" : "3c56f070eeb431e2",
+  "name" : "模拟失败的测试用例",
+  "time" : {
+    "start" : 1610786619939,
+    "stop" : 1610786619940,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4beb098c1b08345",
+  "name" : "模拟成功的测试用例",
+  "time" : {
+    "start" : 1610786619937,
+    "stop" : 1610786619937,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "aa0c720aaa80356a",
+  "name" : "标记失败，结果为成功",
+  "time" : {
+    "start" : 1610786619963,
+    "stop" : 1610786619963,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "92b2988aa7c295c",
+  "name" : "模拟异常测试用例",
+  "time" : {
+    "start" : 1610786619950,
+    "stop" : 1610786619950,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "2d64ced6537d821d",
+  "name" : "模拟跳过的测试用例",
+  "time" : {
+    "start" : 1610786619948,
+    "stop" : 1610786619948,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "blocker"
+}, {
+  "uid" : "b7098bb1b4313795",
+  "name" : "test_device_update",
+  "time" : {
+    "start" : 1668050745404,
+    "stop" : 1668050749041,
+    "duration" : 3637
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "da686f3c375d7fa5a5da273c6b44a0e9",
+    "name" : "test_07_allure_demo2",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 1,
+      "skipped" : 2,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "1df18c15b3f2c9883673036291055787",
+    "name" : "test_03_device_update",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

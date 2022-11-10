@@ -1,0 +1,22 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:65214/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:231 Starting new HTTP connection (1): 127.0.0.1:65214
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:65214 "POST /session HTTP/1.1" 200 720
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:65214/session/7a1b8697339822e099bfa6dbb95b2d5c/url {"url": "https://www.baidu.com"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:65214 "POST /session/7a1b8697339822e099bfa6dbb95b2d5c/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:65214/session/7a1b8697339822e099bfa6dbb95b2d5c/element {"using": "css selector", "value": "[id=\"kw\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:65214 "POST /session/7a1b8697339822e099bfa6dbb95b2d5c/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:65214/session/7a1b8697339822e099bfa6dbb95b2d5c/element/3f11cdc6-1641-4bf7-87d7-525ebfeecdb6/value {"text": "\u72c2\u5e08", "value": ["\u72c2", "\u5e08"], "id": "3f11cdc6-1641-4bf7-87d7-525ebfeecdb6"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:65214 "POST /session/7a1b8697339822e099bfa6dbb95b2d5c/element/3f11cdc6-1641-4bf7-87d7-525ebfeecdb6/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:65214/session/7a1b8697339822e099bfa6dbb95b2d5c/element {"using": "css selector", "value": "[id=\"su\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:65214 "POST /session/7a1b8697339822e099bfa6dbb95b2d5c/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:65214/session/7a1b8697339822e099bfa6dbb95b2d5c/element/78c61dce-b2c0-4095-8367-5c47a0967806/click {"id": "78c61dce-b2c0-4095-8367-5c47a0967806"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:65214 "POST /session/7a1b8697339822e099bfa6dbb95b2d5c/element/78c61dce-b2c0-4095-8367-5c47a0967806/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:65214/session/7a1b8697339822e099bfa6dbb95b2d5c {}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:65214 "DELETE /session/7a1b8697339822e099bfa6dbb95b2d5c HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

@@ -1,0 +1,117 @@
+{
+  "uid" : "b7098bb1b4313795",
+  "name" : "test_device_update",
+  "fullName" : "test_03_device_update.Test_Device_Update#test_device_update",
+  "historyId" : "4d6f69528105025e73155f81a2c2931c",
+  "time" : {
+    "start" : 1668050745404,
+    "stop" : 1668050749041,
+    "duration" : 3637
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1668050743426,
+      "stop" : 1668050743478,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_Test_Device_Update",
+    "time" : {
+      "start" : 1668050743478,
+      "stop" : 1668050745403,
+      "duration" : 1925
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5747c0a8ec113bf7",
+      "name" : "log",
+      "source" : "5747c0a8ec113bf7.txt",
+      "type" : "text/plain",
+      "size" : 15930
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_Device_Update::0",
+    "time" : {
+      "start" : 1668050749041,
+      "stop" : 1668050751154,
+      "duration" : 2113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "update"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_device_update"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Device_Update"
+  }, {
+    "name" : "host",
+    "value" : "hy"
+  }, {
+    "name" : "thread",
+    "value" : "13708-Thread-1"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_03_device_update"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "update" ]
+  },
+  "source" : "b7098bb1b4313795.json",
+  "parameterValues" : [ ]
+}

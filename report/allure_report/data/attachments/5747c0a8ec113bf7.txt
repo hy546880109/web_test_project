@@ -1,0 +1,106 @@
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG    faker.factory:factory.py:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--disk-cache-dir=C:\\Users\\hy546\\Desktop\\hy\\WEB_Test_Project\\lib\\cache"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--disk-cache-dir=C:\\Users\\hy546\\Desktop\\hy\\WEB_Test_Project\\lib\\cache"]}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:227 Starting new HTTP connection (1): 127.0.0.1:55976
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session HTTP/1.1" 200 789
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/url {"url": "http://106.52.198.240:8899/#/login"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/window/maximize {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/window/maximize HTTP/1.1" 200 52
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/timeouts {"implicit": 20000}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element {"using": "css selector", "value": "div:nth-child(1) > div > div > div.el-input.el-input--prefix > input"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element/7024a9e8-05fd-46ac-8c15-d6444a65cfa7/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "7024a9e8-05fd-46ac-8c15-d6444a65cfa7"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element/7024a9e8-05fd-46ac-8c15-d6444a65cfa7/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element {"using": "css selector", "value": "div:nth-child(2) > div > div > div > input"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element/f28dc488-3bf6-4259-8756-fdc37bfa20a9/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "f28dc488-3bf6-4259-8756-fdc37bfa20a9"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element/f28dc488-3bf6-4259-8756-fdc37bfa20a9/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element {"using": "css selector", "value": "div.putdiv.divmsgcode > div > div > div.msgcon.ellorow > div.hymsgcode.el-input > input"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element/347b5f1c-c65d-4065-924b-ae8e6fb06e83/value {"text": "1234", "value": ["1", "2", "3", "4"], "id": "347b5f1c-c65d-4065-924b-ae8e6fb06e83"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element/347b5f1c-c65d-4065-924b-ae8e6fb06e83/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element {"using": "css selector", "value": "div.putdiv.divbottom > div > div > button"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element/623c4bb7-b521-45a9-bc6e-32280ae6f174/click {"id": "623c4bb7-b521-45a9-bc6e-32280ae6f174"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element/623c4bb7-b521-45a9-bc6e-32280ae6f174/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element {"using": "css selector", "value": "div.layout-right > div > div.header > div > span"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element/d103ff79-fd1d-48f9-8207-becf6370f1c0/click {"id": "d103ff79-fd1d-48f9-8207-becf6370f1c0"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element/d103ff79-fd1d-48f9-8207-becf6370f1c0/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element {"using": "css selector", "value": "div:nth-child(2) > ul > li:nth-child(2) > div > span"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element/ff6503b4-8d61-43fb-906e-53f2b343230b/click {"id": "ff6503b4-8d61-43fb-906e-53f2b343230b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element/ff6503b4-8d61-43fb-906e-53f2b343230b/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element {"using": "css selector", "value": "#app > div > div.layout-left > div > div:nth-child(2) > ul > li.el-submenu.is-opened > ul > li > ul > li:nth-child(4)"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element/a7cbacb9-a77e-4a9f-95a4-513cf2a844ff/click {"id": "a7cbacb9-a77e-4a9f-95a4-513cf2a844ff"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element/a7cbacb9-a77e-4a9f-95a4-513cf2a844ff/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element {"using": "css selector", "value": "#app > div > div.layout-right > div > div.content-box > div > div:nth-child(2) > div > div.upgrade-table-box > div > div > div > div.paging > div > span.el-pagination__sizes > div > div > span > span > i"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/element/f011f365-9627-4462-a0ee-e9867449fb21/click {"id": "f011f365-9627-4462-a0ee-e9867449fb21"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "POST /session/5a839fe907708ed0c63deca6bc0aea50/element/f011f365-9627-4462-a0ee-e9867449fb21/click HTTP/1.1" 400 1295
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50/screenshot {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "GET /session/5a839fe907708ed0c63deca6bc0aea50/screenshot HTTP/1.1" 200 216680
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:55976/session/5a839fe907708ed0c63deca6bc0aea50 {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:55976 "DELETE /session/5a839fe907708ed0c63deca6bc0aea50 HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

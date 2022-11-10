@@ -1,0 +1,111 @@
+{
+  "uid" : "92b2988aa7c295c",
+  "name" : "模拟异常测试用例",
+  "fullName" : "test_07_allure_demo2.TestBaidu#test_error",
+  "historyId" : "7c56afde4c5b0b5ea8a9715083bc9f8f",
+  "time" : {
+    "start" : 1610786619950,
+    "stop" : 1610786619950,
+    "duration" : 0
+  },
+  "description" : "测试百度的搜索功能",
+  "descriptionHtml" : "<p>测试百度的搜索功能</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Exception: error",
+  "statusTrace" : "self = <UI_Test_Project.test_case.test_07_allure_demo2.TestBaidu object at 0x000002060554F048>\n\n    @allure.issue(\"http://www.baidu.com\", \"此处之前有bug\")\n    @allure.step(\"测试步骤3 - 取现\")\n    @allure.title(\"模拟异常测试用例\")\n    def test_error(self):\n>       raise Exception('error')\nE       Exception: error\n\n..\\test_case\\test_07_allure_demo2.py:70: Exception",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试百度的搜索功能",
+    "status" : "broken",
+    "statusMessage" : "Exception: error",
+    "statusTrace" : "self = <UI_Test_Project.test_case.test_07_allure_demo2.TestBaidu object at 0x000002060554F048>\n\n    @allure.issue(\"http://www.baidu.com\", \"此处之前有bug\")\n    @allure.step(\"测试步骤3 - 取现\")\n    @allure.title(\"模拟异常测试用例\")\n    def test_error(self):\n>       raise Exception('error')\nE       Exception: error\n\n..\\test_case\\test_07_allure_demo2.py:70: Exception",
+    "steps" : [ {
+      "name" : "测试步骤3 - 取现",
+      "time" : {
+        "start" : 1610786619950,
+        "stop" : 1610786619950,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "Exception: error\n",
+      "statusTrace" : "  File \"D:\\training\\py3_env\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\work\\培训课件\\培训课件-Mac\\第51课时\\UI_Test_Project\\test_case\\test_07_allure_demo2.py\", line 70, in test_error\n    raise Exception('error')\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "百度"
+  }, {
+    "name" : "feature",
+    "value" : "百度搜索"
+  }, {
+    "name" : "severity",
+    "value" : "BLOCKER"
+  }, {
+    "name" : "tag",
+    "value" : "mikezhou2"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_allure_demo2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBaidu"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-C73H3V04"
+  }, {
+    "name" : "thread",
+    "value" : "14544-Thread-1"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_07_allure_demo2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "此处之前有bug",
+    "url" : "http://www.baidu.com",
+    "type" : "issue"
+  }, {
+    "name" : "http://www.baidu.com",
+    "url" : "http://www.baidu.com",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "mikezhou2" ]
+  },
+  "source" : "92b2988aa7c295c.json",
+  "parameterValues" : [ ]
+}
